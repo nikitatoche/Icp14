@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Absolute Position</title>
+	<style>
+		#container {
+            background-color: rgb(156, 83, 140);
+			width: 80px;
+			height:40px;
+			border: 1px solid black;
+            left:100px;
+            border-radius:10px;
+
+            
+		}
+		
+		#box {
+			position: absolute;
+			width: 30px;
+			height: 20px;
+            border-radius:10px;
+			background-color: rgb(90, 183, 223);
+		}
+        p{
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+    <p>position: absolute; is a CSS property that allows elements to be positioned based on an absolute point on the page, 
+        relative to its parent element. 
+        This ensures the element's position is the same even if the page is resized or the content is changed</p>
+        <p> Absolute units specify a fixed length value. It doesn't matter if the screen's width or height changes, the value will remain fixed. For high-resolution media like print documents, it is recommended that you use cm , mm , or pt . For webpages, px is the recommended unit.</p>
+        <div id="container">
+            <div id="box"></div>
+        
+	</div>
+</body>
+</html>
